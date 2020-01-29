@@ -1,0 +1,119 @@
+body {
+
+  font-size: 16px;
+  line-height: 2px;
+  color: #777;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  font-family: 'Roboto'
+}
+*{
+  font-family: 'roboto';
+}
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+} */
+
+.navbar{
+  background-color: #4F4D53; 
+   font-size: 10px; 
+  height: auto;
+  width: auto;
+  clear: both;
+ 
+}
+.container {
+  font-size: 10px;
+  line-height: 24px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+    padding-left:50px;
+    padding-right: 50px;
+ padding-top: 20px;
+  text-align: center;
+
+    
+    justify-content: center;
+
+  
+
+}
+
+
+.img_container{
+  clear: both;
+display: flex;
+justify-content: center;
+text-align: center;
+/* 
+padding-right: 70px;
+padding-left: 70px; */
+font-size: 10px;
+}
+    .jumbotron {
+ 
+      background-image: url("media/img_hero.jpg");
+      /* background-size: 100%; */
+      height: 400px;
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover;
+    }
+  
+
+
+  h1{
+      font-size: 100px;
+      color: #4F4D53;
+      
+  }
+  h2{
+      font-size: 64px;
+      color: #E8BE02;
+      text-align: center;
+  }
+  h3{
+      font-size: 20px;
+      color: #E8BE02 ;
+
+  }
+  /* .img1 {
+    float: right;
+  } */
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+
+  footer {
+   text-align: left;
+    font-size: 6px;
+   line-height: 3px;
+    color: #ccc;
+    text-align: flex;
+    background: #666;
+    border-top: 12px solid #E8BE02;
+  }
+
+  /* div {
+   
+    padding: 5px;
+  } */
+  
+  /* .img1 {
+    float: left;
+  }
+
+  
+  .img2 {
+    float: right;
+  } */
+  .clearfix {
+    overflow: auto;
+  }
